@@ -31,3 +31,5 @@ Você pode saber mais sobre acessando [RecodePro](https://www.recodepro.org.br/)
 **O que estou aprendendo agora?**
 - Lógica de programação
 - HTML
+- CSS
+- Javascript(vanilla)
