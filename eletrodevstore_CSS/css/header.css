@@ -1,21 +1,91 @@
-header {
-    width: 100%;
+.topBar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: .5em;
+    background-color: #1d1d1d;
+    border-radius: 0 0 1em 1em;
+}
+
+.topBar img {
+    max-width: 100%;
+    min-width: 100px;
+}
+
+.topBar a {
+    padding: .5em;
+    transition: .5s;
+    /* border-radius: .5em; */
+}
+
+/* .topBar a:hover, a:active {
+    background-color: #2E2E2E;
+} */
+
+.topBar a.selectedHome:link, a.selectedHome:visited {
+    border-bottom: 1px solid #36D199;
+}
+
+.topBar a.selected:link, a.selected:visited {
+    color: #36D199;
+}
+
+.searchDiv {
+    margin-top: .5em;
+    align-items: center;
+}
+
+.searchDiv #searchBar {
+    text-align: center;
+    width: 20em;
+    outline: none;
+    border: none;
+    height: 2em;
+    border-radius: .5em;
+    margin: .7em 0;
+}
+
+.searchDiv #searchButton {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+
+    color: #36D199;
+    font-size: 1.5em;
 }
 
 .navMenu {
     display: flex;
     align-items: center;
-}
-
-.navMenu img {
-    max-width: 100%;
-    min-width: 100px;
+    padding: .5em 0;
+    border-bottom: 1px solid #2E2E2E;
 }
 
 .navMenu a {
+    font-size: 1.2em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
     text-align: center;
     color: white;
     text-decoration: none;
-    width: 25%;
-    margin-left: 35px;
+    margin: 0 auto;
+    padding: .5em .2em;
+    transition: .5s;
+    border-radius: .5em;
+}
+
+.navMenu a:hover {
+    color: #2E2E2E;
+    background-color: #36D199;
+}
+
+.welcomeTitle {
+    font-weight: normal;
+    letter-spacing: .1em;
+    font-size: 1.3em;
+}
+
+.welcomeTitle span {
+    color: #36D199;
 }

@@ -1,51 +1,41 @@
-@import url('https://fonts.googleapis.com/css2?family=Saira&display=swap');
-
-body {
-    background: #111111;
-    color: #ffffff;
-    max-width: 100%;
-    display: flex;   
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
-    padding: 0 10%;
-    font-family: Saira, sans-serif;
+.productSection {
+    display: flex;
+    flex-wrap: wrap;
 }
 
-.offerSection h3 {
+.productSection h3 {
     text-transform: uppercase;
     letter-spacing: .2em;
     font-size: .9em;
 }
 
-.offerCards {
+.productCards {
     background-color: #ffffff;
     border-radius: .8em;
-    width: 80%;
-    margin: .5em auto;
+    width: 46%;
+    margin: .5em 2%;
     color: #111111;
 }
 
-.offerCards .oldPrice {
+.productCards .oldPrice {
     text-decoration: line-through;
     font-size: 1em;
     margin-bottom: -.9em;
 }
 
-.offerCards .newPrice {
+.productCards .newPrice {
     font-size: 1.5em;
     color: #ff0000;
     font-weight: 600;
     margin-bottom: .5em;
 }
 
-.offerSection .offerCards img {
+.productSection .productCards img {
     max-width: 140px;
 
 }
 
-.offerCards button {
+.productCards button {
     border: none;
     border-radius: .5em;
     padding: .7em 1.5em;

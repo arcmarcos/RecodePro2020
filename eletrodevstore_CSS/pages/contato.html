@@ -1,79 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contato | Full Stack Eletro</title>
-    <link rel="shortcut icon" href="../imgs/icon.png">
+    
+    <title>Eletro Dev Store</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/normalize.css"> <!-- folha css para ajustar paginas em quase todos os navegadores -->
+    
+    <link rel="shortcut icon" href="../imgs/eds_icon.png">
+
+    <!-- Scritp para pegar icones no FontAwesome -->
+    <script src="https://kit.fontawesome.com/110e73ee38.js" crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-    <!-- Menu -->
-    <table width="100%" bgcolor="red">
-        <tr>
-            <td align="center" width="25%">
-                <a href="../index.html"><img src="../imgs/logo.png" width="140px" alt="logotipo da loja"></a>
-            </td>
-            <td align="center" width="25%">
-                <a href="./produtos.html"><font face="Arial" size="5" color="white">Produtos</font></a>
-            </td>
-            <td align="center" width="25%">
-                <a href="./lojas.html"><font face="Arial" size="5" color="white">Nossas lojas</font></a>
-            </td>
-            <td align="center" width="25%">
-                <a href="./contato.html"><font face="Arial" size="5" color="white">Fale conosco</font></a>
-            </td>
-        </tr>
-    </table>
-    <!-- Fim do menu -->
+    
+    <header>
+        <div class="topBar">
+            <a href="../index.html"><img src="../imgs/eds_logo.png" alt="logotipo da loja"></a>
+            
+            <div class="searchDiv">
+                <input type="text" id="searchBar" placeholder="Pesquisar">
+                <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <nav class="navMenu">
+            <a href="../pages/produtos.html">Produtos</a>
+            <a href="../pages/lojas.html">Nossas lojas</a>
+            <a class="selected" href="../pages/contato.html">Contato</a>
+        </nav>
+    </header>
 
-    <h1><font face="Arial">Contato</font></h1>
-    <hr>
-<!-- Contatos -->
-    <address>
-    <table border="0" width="100%" cellpadding="40px" >
-        <tr>
-            <td width="50%" align="center">
-                <img src="../imgs/email.webp" alt="email" width="42px">
-                <p><font face="Arial" size="4">contato@fullstackeletro.com</font></p>
-            </td>
-            <td width="50%" align="center">
-                <img src="../imgs/whatsapp.png" alt="whatsapp" width="42px">
-                <p><font face="Arial" size="4">(21) 99999-9999</font></p>
-            </td>
-        </tr>
-    </table>
-    </address>
-<!-- Fim Contatos -->
 
-<!-- Formulario -->
-    <center>
-        <form>
-            <h3><font face="Arial">Formulário para contato</font></h3>
-            <label for="name"><font face="Arial">Nome: </font></label>
-            <input type="text" placeholder="Digite seu nome">
-            <label for="email"><font face="Arial">E-mail: </font></label>
-            <input type="email" placeholder="Digite seu E-mail">
-            <label for="message">
-                <h4><font face="Arial">Mensagem</font></h4>
-                <textarea cols="50" rows="5" placeholder="Digite sua mensagem"></textarea>
-            </label>
-            <h5><font face="Arial">Enviar</font></h5>
-            <input type="submit" value="Clique para enviar">
-        </form>
-    </center>
-<!-- Fim Formulario -->
-
-<!-- Forma Pagamento  -->
-    <table border="0" width="100%" cellpadding="20px">
-        <tr>
-            <td align="center">
-                <h3><font face="Ubuntu" color="red" size="5">Formas de pagamento</font></h3>
-                <img src="../imgs/forma_pagamento.png" alt="Formas de pagamento: cartões de crédito e boleto" width="460px">
-            </td>
-        </tr>
-    </table>
-
-    <center><font face="Arial">Marcos Antonio &copy Recode Pro 2020</font></center>
+    <footer>
+        <div class="payContainer">
+            <h3>Formas de pagamento</h3>
+            <img src="../imgs/formas_pagamento.png" alt="formas de pagamento">
+        </div>
+        <div class="mediaContainer">
+            <h3>Redes Sociais</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footerAutor">Marcos Antonio &reg Recode Pro 2020</p>
+    </footer>
 
 </body>
 </html>

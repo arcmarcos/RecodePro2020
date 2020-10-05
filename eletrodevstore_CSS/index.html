@@ -20,37 +20,51 @@
 </head>
 
 <body>
+
     <header>
+        <div class="topBar">
+            <a class="selectedHome" href="index.html"><img src="imgs/eds_logo.png" alt="logotipo da loja"></a>
+            
+            <div class="searchDiv">
+                <input type="text" id="searchBar" placeholder="Pesquisar">
+                <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+
         <nav class="navMenu">
-            <a href="index.html"><img src="imgs/eds_logo.png" alt="logotipo da loja"></a>
             <a href="./pages/produtos.html">Produtos</a>
             <a href="./pages/lojas.html">Nossas lojas</a>
-            <a href="./pages/contato.html">Fale conosco</a>
-                </td>
+            <a href="./pages/contato.html">Contato</a>
         </nav>
-        <!-- <h2>Bem vindo, a Eletro Dev Store! </h2> -->
+        <h2 class="welcomeTitle">Bem vindo, a <span>Eletro Dev Store!</span> </h2>
     </header>
 
     <main>
         <section class="offerSection">
             <h3>Ofertas</h3>
-            <div class="featuredCards">
-
+            <div class="offerCards">
+                <img src="./imgs/produtos/ps5.jpg" alt="PlayStation 5">
+                <h3>Sony PlayStation 5 2020</h3>
+                <p class="oldPrice">R$ 4.999,00</p>
+                <p class="newPrice">R$ 4.499,00</p>
+                <button><i class="fas fa-shopping-basket"></i> Comprar</button>
             </div>
         </section>
     </main>
 
     <footer>
-        <div class="payDiv">
+        <div class="payContainer">
             <h3>Formas de pagamento</h3>
-            <img src="imgs/formas_pagamento.png" alt="">
+            <img src="imgs/formas_pagamento.png" alt="formas de pagamento">
         </div>
-        <div class="mediaDiv">
-            <h3>Acompanhe nossas redes sociais</h3>
+        <div class="mediaContainer">
+            <h3>Redes Sociais</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
         </div>
-        <p>Marcos Antonio &reg Recode Pro 2020</p>
+        <p class="footerAutor">Marcos Antonio &reg Recode Pro 2020</p>
     </footer>
-
 
 </body>
 </html>
