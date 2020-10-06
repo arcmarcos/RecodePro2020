@@ -105,7 +105,12 @@
         font-size: 1.2em;
     }
 
+    .navMenu a {
+        font-size: 1.3em;
+    }
+
     .welcomeTitle {
-        font-size: 2em;
+        font-size: 1.7em;
+        margin-bottom: -.1em;
     }
 }
