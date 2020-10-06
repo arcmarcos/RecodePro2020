@@ -46,16 +46,18 @@ body {
     border-radius: .7em;
     margin: .5em auto;
     color: #111111;
-    border: .3em solid transparent;
+    border: .2em solid transparent;
     transition: .5s;
 }
 
 .productCards h3 {
-    font-size: .8em;
+    background-color: #ff0000;
+    text-align: initial;
+    font-size: .7em;
 }
 
-.productCards:hover, button:hover {
-    border: .3em solid #773ADC;
+.productCards:hover {
+    border: .2em solid #773ADC;
 }
 
 .productCards .oldPrice {
@@ -72,18 +74,18 @@ body {
 }
 
 .productSection .productCards img {
-    max-width: 120px;
+    max-width: 100px;
 
 }
 
 .productCards button {
     border: none;
     border-radius: .5em;
-    padding: .7em 1em;
-    font-size: 1.3em;
+    padding: .5em .8em;
+    font-size: 1.1em;
     background-color: #36d199;
     text-transform: lowercase;
-    margin-bottom: -1em;
+    /* margin-bottom: -1em; */
     cursor: pointer;
     outline: none;
     transition: .5s;
