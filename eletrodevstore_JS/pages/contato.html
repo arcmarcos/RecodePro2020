@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Eletro Dev Store</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/normalize.css"> <!-- folha css para ajustar paginas em quase todos os navegadores -->
+    
+    <link rel="shortcut icon" href="../imgs/eds_icon.png">
+
+    <!-- Scritp para pegar icones no FontAwesome -->
+    <script src="https://kit.fontawesome.com/110e73ee38.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="topBar">
+            <a href="../index.html"><img src="../imgs/eds_logo.png" alt="logotipo da loja"></a>
+            
+            <div class="searchDiv">
+                <input type="text" id="searchBar" placeholder="Pesquisar">
+                <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+        <nav class="navMenu">
+            <a href="../pages/produtos.html">Produtos</a>
+            <a href="../pages/lojas.html">Nossas lojas</a>
+            <a class="selected" href="../pages/contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <address>
+            <div class="contact">
+                <i class="fab fa-whatsapp"></i>
+                <p>Tel: 21 99999-9999</p>
+            </div>
+            <div class="contact">
+                <i class="fas fa-at"></i>
+                <p>contato@eds.com.br</p>
+            </div>
+        </address>
+    
+        <form class="contactForm">
+            <h3>Formulário para contato</h3>
+
+            <label for="name">Nome:
+                <input type="text" name="name" placeholder="Digite seu nome">
+            </label>
+            <label for="email">Email:
+                <input type="email" name="email" placeholder="Digite seu Email">
+            </label>
+
+            <h4>Mensagem</h4>
+            <textarea name="message" id="messageField" cols="50" rows="10" placeholder="Digite sua mensagem"></textarea>
+            <button>Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <div class="payContainer">
+            <h3>Formas de pagamento</h3>
+            <img src="../imgs/formas_pagamento.png" alt="formas de pagamento">
+        </div>
+        <div class="mediaContainer">
+            <h3>Redes Sociais</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footerAutor">Marcos Antonio &reg Recode Pro 2020</p>
+    </footer>
+
+</body>
+</html>

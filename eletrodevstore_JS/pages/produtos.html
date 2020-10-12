@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Eletro Dev Store</title>
+
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/products.css">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/normalize.css"> <!-- folha css para ajustar paginas em quase todos os navegadores -->
+    
+    <link rel="shortcut icon" href="../imgs/eds_icon.png">
+
+    <!-- Scritp para pegar icones no FontAwesome -->
+    <script src="https://kit.fontawesome.com/110e73ee38.js" crossorigin="anonymous"></script>
+
+    <script src="../script/main.js"></script>
+</head>
+
+<body>
+
+    <header>
+        <div class="topBar">
+            <a href="../index.html"><img src="../imgs/eds_logo.png" alt="logotipo da loja"></a>
+            
+            <div class="searchDiv">
+                <input type="text" id="searchBar" placeholder="Pesquisar">
+                <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
+            </div>
+        </div>
+
+        <nav class="navMenu">
+            <a class="selected"href="../pages/produtos.html">Produtos</a>
+            <a href="../pages/lojas.html">Nossas lojas</a>
+            <a href="../pages/contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main>
+        <div class="productContainer">
+            <div class="categories">
+                <h3>Categorias</h3>
+                <button class="categoriesButtons" onclick="showAllProducts()">Todos</button>
+                <button class="categoriesButtons" onclick="showProducts('videoGames')">Vídeogames</button>
+                <button class="categoriesButtons" onclick="showProducts('geladeiras')">Geladeiras</button>
+                <button class="categoriesButtons" onclick="showProducts('celulares')">Celulares</button>
+                <button class="categoriesButtons" onclick="showProducts('lavadoras')">Lavadoras</button>
+                <button class="categoriesButtons" onclick="showProducts('info')">Informática</button>
+                <button class="categoriesButtons" onclick="showProducts('tablets')">Tablets</button>
+                <button class="categoriesButtons" onclick="showProducts('tvs')">Televisores</button>
+            </div>
+            <section class="productSection">
+                <div class="productCards videoGames" id="videoGames">
+                    <img src="../imgs/produtos/ps5.jpg" alt="PlayStation 5">
+                    <h3>Sony PlayStation 5 2020 1TB</h3>
+                    <p class="oldPrice">R$ 4.999,00</p>
+                    <p class="newPrice">R$ 4.499,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards videoGames" id="videoGames">
+                    <img src="../imgs/produtos/xbox.jpg" alt="Xbox" >
+                    <h3>Microsoft Xbox Series X 2020 1TB</h3>
+                    <p class="oldPrice">R$ 5.089,00</p>
+                    <p class="newPrice">R$ 4.419,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards info" id="info">
+                    <img src="../imgs/produtos/monitor-ultra.jpg" alt="Monitor UltraWide">
+                    <h3>Monitor UltraWide 49' Samsung</h3>
+                    <p class="oldPrice">R$ 8.215,00</p>
+                    <p class="newPrice">R$ 7.525,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards info" id="info">
+                    <img src="../imgs/produtos/macbook.jpeg" alt="Apple Macbook">
+                    <h3>Apple Macbook Pro 13' Retina 1TB</h3>
+                    <p class="oldPrice">R$ 16.999,00</p>
+                    <p class="newPrice">R$ 14.229,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards geladeiras" id="geladeiras">
+                    <img src="../imgs/produtos/geladeira-brastemp.jpg" alt="Geladeira Brastemp">
+                    <h3>Geladeira Brastemp FrostFree 540l</h3>
+                    <p class="oldPrice">R$ 6.389,00</p>
+                    <p class="newPrice">R$ 5.019,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards geladeiras" id="geladeiras">
+                    <img src="../imgs/produtos/geladeira-brastemp2.jpg" alt="Geladeira Brastemp">
+                    <h3>Geladeira Brastemp Side by Side 540l</h3>
+                    <p class="oldPrice">R$ 7.389,00</p>
+                    <p class="newPrice">R$ 6.510,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards lavadoras" id="lavadoras">
+                    <img src="../imgs/produtos/lava-seca.jpg" alt="Lava e seca">
+                    <h3>Lava e Seca Samsung 11kg Wifi</h3>
+                    <p class="oldPrice">R$ 4.199,00</p>
+                    <p class="newPrice">R$ 3.959,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards tvs" id="tvs">
+                    <img src="../imgs/produtos/tv-oled.jpg" alt="TV oled">
+                    <h3>Smart TV Ultra HD 65' Oled LG</h3>
+                    <p class="oldPrice">R$ 10.299,00</p>
+                    <p class="newPrice">R$ 9.499,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards celulares" id="celulares">
+                    <img src="../imgs/produtos/Huawei.webp" alt="Smartphone Huawei">
+                    <h3>Smartphone Huawei P40 Pro white</h3>
+                    <p class="oldPrice">R$ 5.189,00</p>
+                    <p class="newPrice">R$ 4.649,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards tablets" id="tablets">
+                    <img src="../imgs/produtos/ipad.jpg" alt="Apple Ipad">
+                    <h3>Apple Ipad Pro 11' 256GB 4ª Geração</h3>
+                    <p class="oldPrice">R$ 9.999,00</p>
+                    <p class="newPrice">R$ 8.999,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards info" id="info">
+                    <img src="../imgs/produtos/notebook.jpeg" alt="Notebook Alienware">
+                    <h3>Notebook AlienWare i9 16GB 1TB SSD RTX3080 17'</h3>
+                    <p class="oldPrice">R$ 26.089,00</p>
+                    <p class="newPrice">R$ 24.190,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+                <div class="productCards info" id="info">
+                    <img src="../imgs/produtos/pc-gamer.jpg" alt="PC Gamer">
+                    <h3>PC Gamer AlienWare i9 32GB 2TB SSD RTX3080 24'</h3>
+                    <p class="oldPrice">R$ 19.389,00</p>
+                    <p class="newPrice">R$ 18.019,00</p>
+                    <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="payContainer">
+            <h3>Formas de pagamento</h3>
+            <img src="../imgs/formas_pagamento.png" alt="formas de pagamento">
+        </div>
+        <div class="mediaContainer">
+            <h3>Redes Sociais</h3>
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p class="footerAutor">Marcos Antonio &reg Recode Pro 2020</p>
+    </footer>
+
+</body>
+</html>
