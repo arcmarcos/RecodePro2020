@@ -21,3 +21,13 @@ let showAllProducts = () => {
         elements[indice].style = "display:block"; 
     }
 }
+
+
+// Função para adicionar produtos no carrinho
+function cartUpValue() {
+    const cartCount = document.querySelector('.cartCount')
+    cartCount.innerText="1";
+}
+
+//Ainda trabalhando, valor na span muda com innertext, porém precisa
+// de uma lógica mais elaborada, para que o incremento seja automático.

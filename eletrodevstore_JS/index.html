@@ -9,14 +9,16 @@
 
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/cart.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/normalize.css"> <!-- folha css para ajustar paginas em quase todos os navegadores -->
     
     <link rel="shortcut icon" href="imgs/eds_icon.png">
 
-    <!-- Scritp para pegar icones no FontAwesome -->
+    <!-- Script para pegar icones no FontAwesome -->
     <script src="https://kit.fontawesome.com/110e73ee38.js" crossorigin="anonymous"></script>
 
+    <script src="./script/main.js"></script>
 </head>
 
 <body>
@@ -29,6 +31,13 @@
                 <input type="text" id="searchBar" placeholder="Pesquisar">
                 <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
             </div>
+            <!-- Ícone Carrinho e contador de itens -->
+            <div class="cartIconContainer">
+                <button class="cartIcon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <span class="cartCount">0</span>
+                </button>
+            </div>
         </div>
 
         <nav class="navMenu">
@@ -39,6 +48,13 @@
         <h2 class="welcomeTitle">Bem vindo, a <span>Eletro Dev Store!</span> </h2>
     </header>
 
+<!-- Futura implementação do carrinho sidebar
+    <aside class="cartContainer">
+        <div class="cart">
+
+        </div>
+    </aside> -->
+    
     <main>
         <section class="offerSection">
             <h3>Oferta do dia</h3>
@@ -47,7 +63,7 @@
                 <h3>Sony PlayStation 5 2020</h3>
                 <p class="oldPrice">R$ 4.999,00</p>
                 <p class="newPrice">R$ 4.499,00</p>
-                <button><i class="fas fa-shopping-basket"></i> Comprar</button>
+                <button onclick="cartUpValue()"><i class="fas fa-shopping-basket"></i> Comprar</button>
             </div>
         </section>
     </main>

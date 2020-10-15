@@ -10,12 +10,13 @@
     <link rel="stylesheet" href="../css/main.css">
     <link rel="stylesheet" href="../css/products.css">
     <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/cart.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/normalize.css"> <!-- folha css para ajustar paginas em quase todos os navegadores -->
     
     <link rel="shortcut icon" href="../imgs/eds_icon.png">
 
-    <!-- Scritp para pegar icones no FontAwesome -->
+    <!-- Script para pegar icones no FontAwesome -->
     <script src="https://kit.fontawesome.com/110e73ee38.js" crossorigin="anonymous"></script>
 
     <script src="../script/main.js"></script>
@@ -31,14 +32,35 @@
                 <input type="text" id="searchBar" placeholder="Pesquisar">
                 <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
             </div>
-        </div>
 
+            <!-- Ícone Carrinho e contador de itens -->
+            <div class="cartIconContainer">
+                <button class="cartIcon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <span class="cartCount">0</span>
+                </button>
+            </div>
+        </div>
         <nav class="navMenu">
             <a class="selected"href="../pages/produtos.html">Produtos</a>
             <a href="../pages/lojas.html">Nossas lojas</a>
             <a href="../pages/contato.html">Contato</a>
         </nav>
     </header>
+    
+    <!-- Carrinho de compras -->
+    <!-- <div class="cartContainer">
+        <aside class="cart">
+            <button class="closingCart">
+                <i class="fas fa-times"></i>
+            </button>
+            <h2>Suas escolhas</h2>
+
+            <div class="cartItems"></div>
+                <div class="cartItem"></div>
+            <button class="checkout">Finalizar</button>
+        </aside>
+    </div> -->
 
     <main>
         <div class="productContainer">

@@ -14,7 +14,7 @@
     
     <link rel="shortcut icon" href="../imgs/eds_icon.png">
 
-    <!-- Scritp para pegar icones no FontAwesome -->
+    <!-- Script para pegar icones no FontAwesome -->
     <script src="https://kit.fontawesome.com/110e73ee38.js" crossorigin="anonymous"></script>
 
 </head>
@@ -29,6 +29,14 @@
                 <input type="text" id="searchBar" placeholder="Pesquisar">
                 <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
             </div>
+
+            <!-- Ícone Carrinho e contador de itens -->
+            <div class="cartIconContainer">
+                <button class="cartIcon">
+                    <i class="fas fa-shopping-basket"></i>
+                    <span class="cartCount">0</span>
+                </button>
+            </div>
         </div>
         <nav class="navMenu">
             <a href="../pages/produtos.html">Produtos</a>
@@ -36,6 +44,13 @@
             <a class="selected" href="../pages/contato.html">Contato</a>
         </nav>
     </header>
+
+    <!-- Carrinho de compras -->
+    <aside class="cartContainer">
+        <div class="cart">
+
+        </div>
+    </aside>
 
     <main>
         <address>
