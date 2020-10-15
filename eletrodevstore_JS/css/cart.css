@@ -1,4 +1,4 @@
-.cartContainer {
+/* .cartContainer {
     position: fixed;
     top: 0;
     left: 0;
@@ -20,7 +20,7 @@
     padding-top: 3rem;
     display: grid;
     grid-template-rows: auto 1fr auto;
-    /* transform: translateX(100%); */
+    transform: translateX(100%);
     overflow: scroll;
 }
 
@@ -67,4 +67,4 @@
 
 .checkout:hover {
     background: #773adc;
-}
+} */

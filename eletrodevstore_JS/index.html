@@ -33,9 +33,9 @@
             </div>
             <!-- Ícone Carrinho e contador de itens -->
             <div class="cartIconContainer">
-                <button class="cartIcon">
+                <button class="cartIcon" onclick="deleteCart()">
                     <i class="fas fa-shopping-basket"></i>
-                    <span class="cartCount">0</span>
+                    <span class="cartCount"></span>
                 </button>
             </div>
         </div>
@@ -59,12 +59,21 @@
         <section class="offerSection">
             <h3>Oferta do dia</h3>
             <div class="offerCards">
-                <img src="./imgs/produtos/ps5.jpg" alt="PlayStation 5">
+                
+                <img class="image" src="imgs/produtos/ps5.jpg" alt="PS5" onclick="showIn(this)">
+
+                <div class="modal">
+                    <span class="close" onclick="closeButton(this)">&times;</span>
+                    <img class="modal-content" id="img01">
+                </div>
+
                 <h3>Sony PlayStation 5 2020</h3>
                 <p class="oldPrice">R$ 4.999,00</p>
                 <p class="newPrice">R$ 4.499,00</p>
                 <button onclick="cartUpValue()"><i class="fas fa-shopping-basket"></i> Comprar</button>
+
             </div>
+
         </section>
     </main>
 
