@@ -28,3 +28,5 @@
 - Foram necessárias pequenas mudanças no projeto anterior.
 
 - [Link do projeto online](https://marcos-recodepro.netlify.app/eletrodevstore_js/index.html)
+
+A implementação do carrinho teve uma grande ajuda do colega de curso [Henrique](https://github.com/hpbonfim)
