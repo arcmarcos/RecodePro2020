@@ -1,10 +1,9 @@
 # Recode Pro 2020
 ### Esse é o meu repositório para subir o que for ensinado no curso full stack da Recode.
 
-<br>
-
 ### Os projetos podem ser acessados [AQUI](https://marcos-recodepro.netlify.app/)
 
+<br>
 
 ![Recode](https://www.recodepro.org.br/wp-content/uploads/2020/05/logo_maior-2.png)
 
@@ -38,3 +37,4 @@ Você pode saber mais sobre acessando [RecodePro](https://www.recodepro.org.br/)
 - HTML
 - CSS
 - Javascript (Vanilla)
+- Banco de dados com o MySQL
