@@ -14,6 +14,7 @@
 
 ### Projeto praticamente pronto 06/10/20
 - Finalizei o meu trabalho
-- Com base no meu conhecimento atual, tentei deixar a página responsivel
+- Com base no meu conhecimento atual, tentei deixar a página responsiva
 - Os mais experientes falam que é boa pratica começar pelo mobile, e assim eu fiz!
+
 - [Link do projeto online](https://marcos-recodepro.netlify.app/eletrodevstore_css/index.html)
