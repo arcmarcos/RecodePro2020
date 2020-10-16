@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="../css/products.css">
     <link rel="stylesheet" href="../css/header.css">
     <link rel="stylesheet" href="../css/cart.css">
+    <link rel="stylesheet" href="../css/modal.css">
     <link rel="stylesheet" href="../css/footer.css">
     <link rel="stylesheet" href="../css/normalize.css"> <!-- folha css para ajustar paginas em quase todos os navegadores -->
     
@@ -78,7 +79,7 @@
 
             <section class="productSection">
                 <div class="productCards videoGames" id="videoGames">
-                    <img src="../imgs/produtos/ps5.jpg" alt="PlayStation 5">
+                    <img class="image" src="../imgs/produtos/ps5.jpg" alt="PlayStation 5" onclick="showIn(this)">
                     <h3>Sony PlayStation 5 2020 1TB</h3>
                     <p class="oldPrice">R$ 4.999,00</p>
                     <p class="newPrice">R$ 4.499,00</p>
@@ -86,7 +87,7 @@
                 </div>
 
                 <div class="productCards videoGames" id="videoGames">
-                    <img src="../imgs/produtos/xbox.jpg" alt="Xbox" >
+                    <img class="image" src="../imgs/produtos/xbox.jpg" alt="Xbox" onclick="showIn(this)">
                     <h3>Microsoft Xbox Series X 2020 1TB</h3>
                     <p class="oldPrice">R$ 5.089,00</p>
                     <p class="newPrice">R$ 4.419,00</p>
@@ -94,7 +95,7 @@
                 </div>
 
                 <div class="productCards info" id="info">
-                    <img src="../imgs/produtos/monitor-ultra.jpg" alt="Monitor UltraWide">
+                    <img class="image" src="../imgs/produtos/monitor-ultra.jpg" alt="Monitor UltraWide" onclick="showIn(this)">
                     <h3>Monitor UltraWide 49' Samsung</h3>
                     <p class="oldPrice">R$ 8.215,00</p>
                     <p class="newPrice">R$ 7.525,00</p>
@@ -102,7 +103,7 @@
                 </div>
 
                 <div class="productCards info" id="info">
-                    <img src="../imgs/produtos/macbook.jpeg" alt="Apple Macbook">
+                    <img class="image" src="../imgs/produtos/macbook.jpeg" alt="Apple Macbook" onclick="showIn(this)">
                     <h3>Apple Macbook Pro 13' Retina 1TB</h3>
                     <p class="oldPrice">R$ 16.999,00</p>
                     <p class="newPrice">R$ 14.229,00</p>
@@ -110,7 +111,7 @@
                 </div>
 
                 <div class="productCards geladeiras" id="geladeiras">
-                    <img src="../imgs/produtos/geladeira-brastemp.jpg" alt="Geladeira Brastemp">
+                    <img class="image" src="../imgs/produtos/geladeira-brastemp.jpg" alt="Geladeira Brastemp" onclick="showIn(this)">
                     <h3>Geladeira Brastemp FrostFree 540l</h3>
                     <p class="oldPrice">R$ 6.389,00</p>
                     <p class="newPrice">R$ 5.019,00</p>
@@ -118,7 +119,7 @@
                 </div>
 
                 <div class="productCards geladeiras" id="geladeiras">
-                    <img src="../imgs/produtos/geladeira-brastemp2.jpg" alt="Geladeira Brastemp">
+                    <img class="image" src="../imgs/produtos/geladeira-brastemp2.jpg" alt="Geladeira Brastemp" onclick="showIn(this)">
                     <h3>Geladeira Brastemp Side by Side 540l</h3>
                     <p class="oldPrice">R$ 7.389,00</p>
                     <p class="newPrice">R$ 6.510,00</p>
@@ -126,7 +127,7 @@
                 </div>
 
                 <div class="productCards lavadoras" id="lavadoras">
-                    <img src="../imgs/produtos/lava-seca.jpg" alt="Lava e seca">
+                    <img class="image" src="../imgs/produtos/lava-seca.jpg" alt="Lava e seca" onclick="showIn(this)">
                     <h3>Lava e Seca Samsung 11kg Wifi</h3>
                     <p class="oldPrice">R$ 4.199,00</p>
                     <p class="newPrice">R$ 3.959,00</p>
@@ -134,7 +135,7 @@
                 </div>
 
                 <div class="productCards tvs" id="tvs">
-                    <img src="../imgs/produtos/tv-oled.jpg" alt="TV oled">
+                    <img class="image" src="../imgs/produtos/tv-oled.jpg" alt="TV oled" onclick="showIn(this)">
                     <h3>Smart TV Ultra HD 65' Oled LG</h3>
                     <p class="oldPrice">R$ 10.299,00</p>
                     <p class="newPrice">R$ 9.499,00</p>
@@ -142,7 +143,7 @@
                 </div>
 
                 <div class="productCards celulares" id="celulares">
-                    <img src="../imgs/produtos/Huawei.webp" alt="Smartphone Huawei">
+                    <img class="image" src="../imgs/produtos/Huawei.webp" alt="Smartphone Huawei" onclick="showIn(this)">
                     <h3>Smartphone Huawei P40 Pro white</h3>
                     <p class="oldPrice">R$ 5.189,00</p>
                     <p class="newPrice">R$ 4.649,00</p>
@@ -150,7 +151,7 @@
                 </div>
 
                 <div class="productCards tablets" id="tablets">
-                    <img src="../imgs/produtos/ipad.jpg" alt="Apple Ipad">
+                    <img class="image" src="../imgs/produtos/ipad.jpg" alt="Apple Ipad" onclick="showIn(this)">
                     <h3>Apple Ipad Pro 11' 256GB 4ª Geração</h3>
                     <p class="oldPrice">R$ 9.999,00</p>
                     <p class="newPrice">R$ 8.999,00</p>
@@ -158,7 +159,7 @@
                 </div>
 
                 <div class="productCards info" id="info">
-                    <img src="../imgs/produtos/notebook.jpeg" alt="Notebook Alienware">
+                    <img class="image" src="../imgs/produtos/notebook.jpeg" alt="Notebook Alienware" onclick="showIn(this)">
                     <h3>Notebook AlienWare i9 16GB 1TB SSD RTX3080 17'</h3>
                     <p class="oldPrice">R$ 26.089,00</p>
                     <p class="newPrice">R$ 24.190,00</p>
@@ -166,7 +167,7 @@
                 </div>
 
                 <div class="productCards info" id="info">
-                    <img src="../imgs/produtos/pc-gamer.jpg" alt="PC Gamer">
+                    <img class="image" src="../imgs/produtos/pc-gamer.jpg" alt="PC Gamer" onclick="showIn(this)">
                     <h3>PC Gamer AlienWare i9 32GB 2TB SSD RTX3080 24'</h3>
                     <p class="oldPrice">R$ 19.389,00</p>
                     <p class="newPrice">R$ 18.019,00</p>
@@ -190,5 +191,14 @@
         <p class="footerAutor">Marcos Antonio &reg Recode Pro 2020</p>
     </footer>
 
+    <!-- Modal de popup da imagem -->
+    <div id="modalContainer" class="modalContainer">
+        <div class="modal">
+            <button class="close">x</button>
+            <img class="modalContent" id="imageContainer">
+        </div>
+    </div>
+
+    <script src="../scripts/modal.js"></script>
 </body>
 </html>

@@ -76,7 +76,6 @@
 }
 
 .productCards img {
-    cursor: zoom-in;
     width: 100px;
 }
 
@@ -155,6 +154,7 @@
     }
 
     .productCards img {
+        cursor: zoom-in;
         width: 140px;
     }
 

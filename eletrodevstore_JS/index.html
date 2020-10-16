@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/cart.css">
+    <link rel="stylesheet" href="css/modal.css">
     <link rel="stylesheet" href="css/footer.css">
     <link rel="stylesheet" href="css/normalize.css"> <!-- folha css para ajustar paginas em quase todos os navegadores -->
     
@@ -19,6 +20,7 @@
     <script src="https://kit.fontawesome.com/110e73ee38.js" crossorigin="anonymous"></script>
 
     <script src="./script/main.js"></script>
+
 </head>
 
 <body>
@@ -62,11 +64,6 @@
                 
                 <img class="image" src="imgs/produtos/ps5.jpg" alt="PS5" onclick="showIn(this)">
 
-                <div class="modal">
-                    <span class="close" onclick="closeButton(this)">&times;</span>
-                    <img class="modal-content" id="img01">
-                </div>
-
                 <h3>Sony PlayStation 5 2020</h3>
                 <p class="oldPrice">R$ 4.999,00</p>
                 <p class="newPrice">R$ 4.499,00</p>
@@ -91,5 +88,14 @@
         <p class="footerAutor">Marcos Antonio &reg Recode Pro 2020</p>
     </footer>
 
+<!-- Modal de popup da imagem -->
+    <div id="modalContainer" class="modalContainer">
+        <div class="modal">
+            <button class="close">x</button>
+            <img class="modalContent" id="imageContainer">
+        </div>
+    </div>
+
+    <script src="./scripts/modal.js"></script>
 </body>
 </html>
