@@ -21,10 +21,7 @@
     <script src="../scripts/main.js"></script>
 
     <?php 
-        $connectDB = mysqli_connect("localhost:3306", "eds_recode", "", "eds_recode");
-        if (!$connectDB) {
-            die("Falha na conexão com Database: " .mysqli_connect_error());
-        }
+        include_once "../config/connect.php";
 
         if (isset($_POST['nome']) && isset($_POST['email']) && isset($_POST['msg']))  {
             $name = $_POST['nome'];
