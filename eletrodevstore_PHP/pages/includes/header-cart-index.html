@@ -1,0 +1,42 @@
+<header>
+  <div class="topBar">
+      <a class="selectedHome" href="./index.php"><img src="./imgs/eds_logo.png" alt="logotipo da loja"></a>
+
+      <div class="searchDiv">
+          <input type="text" id="searchBar" placeholder="Pesquisar">
+          <button id="searchButton" type="submit"><i class="fa fa-search"></i></button>
+      </div>
+
+      <!-- Ícone Carrinho e contador de itens -->
+      <div class="cartIconContainer">
+          <button class="cartIcon" onclick="displayCart(this)">
+              <i class="fas fa-shopping-basket"></i>
+              <span class="cartCount"></span>
+          </button>
+      </div>
+  </div>
+
+  <nav class="navMenu">
+      <a href="./pages/page-produtos.php">Produtos</a>
+      <a href="./pages/page-lojas.php">Nossas lojas</a>
+      <a href="./pages/page-contato.php">Contato</a>
+  </nav>
+  <h2 class="welcomeTitle">Bem vindo, a <span>Eletro Dev Store!</span> </h2>
+</header>
+
+
+<aside class="cartContainer" id="cartContainer">
+  <div class="cart">
+      <h3>Seu carrinho de compras</h3>
+      <div class="items">
+          <div class="item">
+              <p><span>Sony Playstation 5 </span>| Qnt: <span>1</span></p>
+              <p>Valor: R$ <span>4.499,00</span></p>
+          </div>
+          <div class="buttons">
+              <button class="cartButton clean" onclick="deleteCart()">Limpar</button>
+              <button class="cartButton  checkout" onclick="alert('Disponível em breve!')">Comprar</button>
+          </div>
+      </div>
+  </div>
+</aside>
