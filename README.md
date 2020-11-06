@@ -37,5 +37,8 @@ Você pode saber mais sobre acessando [RecodePro](https://www.recodepro.org.br/)
 - HTML
 - CSS
 - Javascript (Vanilla)
+- Versionamento Git
 - Banco de dados com o MySQL
 - PHP básico
+- Bootstrap
+- ReactJs
