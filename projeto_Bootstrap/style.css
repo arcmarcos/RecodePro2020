@@ -1,0 +1,29 @@
+body {
+  background: #000000;
+}
+
+.tableBody, .contactBody {
+  background:url(./images/fundo.jpg) center center;
+}
+
+.tableBody .table {
+  width: 60%;
+}
+
+.header {
+  background: url(./images/fundo.jpg) center bottom;
+}
+
+.table {
+  width: 30%;
+}
+
+.banner img{
+  width: 300px;
+}
+
+@media (min-width: 940px) {
+  .contactForm {
+    width: 50%;
+  }
+}
