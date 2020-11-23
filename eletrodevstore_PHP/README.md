@@ -20,4 +20,7 @@
 - Em contatos, o usuário consegue enviar uma mensagem, que será recebida no banco de dados.
 - For now, thats all!
 
- ### Em breve, o site será disponibilizado online!
+ ### Site online
+ [Eletro Dev Store PHP](http://eletrodevstore.42web.io/)
+
+ Como o site não tem protocolo de segurança ele da um aviso sobre riscos de acessar o mesmo, estou trabalhando para resolver isso.
