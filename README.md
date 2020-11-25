@@ -1,7 +1,11 @@
 # Recode Pro 2020
-### Esse é o meu repositório para subir o que for ensinado no curso full stack da Recode.
+### Esse é o repositório para subir o que for ensinado no curso full stack da Recode.
+<br>
 
-### Os projetos podem ser acessados online [AQUI](https://marcos-recodepro.netlify.app/)
+> #### Os projetos individuais podem ser acessados online [AQUI](https://marcos-recodepro.netlify.app/)
+<br>
+
+> #### Há também o projeto em grupo que pode ser visto [AQUI](https://github.com/projeto-conatus/conatus)
 
 <br>
 
