@@ -2,6 +2,7 @@ import React from "react";
 import "../style/main.css";
 
 const Home = () => {
+
   return (
     <main>
       <h2 className="welcomeTitle">
@@ -15,8 +16,8 @@ const Home = () => {
             className="image"
             src="./images/produtos/ps5.jpg"
             alt="PS5"
-            onClick="showIn(this)"
           />
+
           <h3>Sony PlayStation 5 2020</h3>
           <p className="oldPrice">R$ 4.999,00</p>
           <p className="newPrice">R$ 4.499,00</p>
