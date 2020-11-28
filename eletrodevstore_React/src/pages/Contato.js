@@ -1,9 +1,12 @@
 import React from "react";
+import Form from "../components/Form";
+import Messages from "../components/Messages";
 
 
 const Contato = () => {
   return (
     <main>
+      <h2>Contato</h2>
       <address>
         <div className="contact">
           <i className="fab fa-whatsapp"></i>
@@ -14,42 +17,10 @@ const Contato = () => {
           <p>contato@eds.com.br</p>
         </div>
       </address>
-
-      <form className="contactForm" method="POST" action="">
-        <h3>Formulário para contato</h3>
-
-        <label for="nome"
-          >Nome:
-          <input
-            type="text"
-            id="name"
-            name="nome"
-            placeholder="Digite seu nome"
-            required
-          />
-        </label>
-        <label for="email"
-          >Email:
-          <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Digite seu Email"
-            required
-          />
-        </label>
-
-        <h4>Mensagem</h4>
-        <textarea
-          name="msg"
-          id="messageField"
-          cols="50"
-          rows="10"
-          placeholder="Digite sua mensagem"
-          required
-        ></textarea>
-        <button type="submit" className="buttonContact">Enviar</button>
-      </form>
+      <Form />
+      <hr/>
+      <Messages />
+      <hr/>
     </main>
   );
 };

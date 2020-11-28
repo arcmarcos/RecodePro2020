@@ -23,9 +23,9 @@
     background: #2E2E2E;
 }
 
-/* .active {
+.active {
     border: 1px solid #36D199;
-} */
+}
 
 .searchDiv {
     margin-top: .5em;
@@ -103,7 +103,7 @@
     color: white;
     text-decoration: none;
     margin: 0 auto;
-    padding: .5em .2em;
+    padding: .5em 1.2em;
     transition: .5s;
     border-radius: .5em;
 }

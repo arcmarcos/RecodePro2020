@@ -12,22 +12,25 @@ const Produtos = (props) => {
     }
     catchProducts();
   }, []);
-
+  
   return (
     <div className="productContainer">
-      {/* <h3>Categorias</h3>
+      
+      <div className="categories">
+      <h3>Categorias</h3>
       {products &&
-        products.map(({ categoria, categoria_unica }) => (
-          <div className="categories">
-            <button className="categoriesButtons">{categoria}</button>
-          </div>
-        ))} */}
+        products.map(({categoria, id_produto}) => (
+            <button key={id_produto} className="categoriesButtons">
+              {categoria}
+            </button>
+        ))}
+         </div>
 
       <section className="productSection">
         {products &&
           products.map(
-            ({ descricao, preco_antigo, preco_novo, imagem, alt_imagem }) => (
-              <div className="productCards">
+            ({ id_produto, descricao, preco_antigo, preco_novo, imagem, alt_imagem }) => (
+              <div key={id_produto} className="productCards">
                 <img className="image" src={imagem} alt={alt_imagem} />
                 <h3>{descricao}</h3>
                 <p className="oldPrice">R$ {preco_antigo},00</p>
@@ -40,6 +43,7 @@ const Produtos = (props) => {
           )}
       </section>
     </div>
+    
   );
 };
 

@@ -21,7 +21,7 @@ const Home = () => {
           <h3>Sony PlayStation 5 2020</h3>
           <p className="oldPrice">R$ 4.999,00</p>
           <p className="newPrice">R$ 4.499,00</p>
-          <button onClick={"cartUpValue()"}>
+          <button>
             <i className="fas fa-shopping-basket"></i> Comprar
           </button>
         </div>
