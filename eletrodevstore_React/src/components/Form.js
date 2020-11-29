@@ -1,18 +1,16 @@
 import React from "react";
 
 const Form = () => {
-  const [form, setForm] = React.useState([]);
+  // const [form, setForm] = React.useState([]);
 
   const sendForm =  (event) => {
     event.preventDefault();
     
-    fetch("http://localhost/PHP_to_React/db.php" , {
+    fetch("http://localhost/PHP_to_React/messages.php" , {
       method: "POST",
       body: new FormData(event.target)
     });
-
   }
-
 
   return (
     <form className="contactForm" onSubmit={sendForm}>

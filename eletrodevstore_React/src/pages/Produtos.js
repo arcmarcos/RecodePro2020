@@ -6,7 +6,7 @@ const Produtos = (props) => {
 
   React.useEffect(() => {
     async function catchProducts() {
-      const response = await fetch("http://localhost/PHP_to_React/db.php");
+      const response = await fetch("http://localhost/PHP_to_React/products.php");
       const result = await response.json();
       setProducts(result);
     }
