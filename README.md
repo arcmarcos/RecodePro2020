@@ -46,3 +46,4 @@ Você pode saber mais sobre acessando [RecodePro](https://www.recodepro.org.br/)
 - PHP básico
 - Bootstrap
 - ReactJs
+- Infraestrutura em TI
