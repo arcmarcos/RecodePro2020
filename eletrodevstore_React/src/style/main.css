@@ -14,11 +14,16 @@ body {
 }
 
 /* Página Principal */
+.welcomeTitle {
+  margin: 1em 0;
+}
+
 .offerSection h3 {
   font-weight: normal;
   text-transform: uppercase;
   letter-spacing: 0.2em;
   font-size: 0.9em;
+  margin-bottom: 1em;
 }
 
 .offerCards {
@@ -38,14 +43,14 @@ body {
 .offerCards .oldPrice {
   text-decoration: line-through;
   font-size: 1em;
-  margin-bottom: -0.9em;
+  margin-bottom: .5em;
 }
 
 .offerCards .newPrice {
   font-size: 1.5em;
   color: #ff0000;
   font-weight: 600;
-  margin-bottom: 0.5em;
+  margin-bottom: .5em;
 }
 
 .offerCards img {
@@ -183,7 +188,16 @@ body {
   background-color: #773adc;
 }
 
-@media (min-width: 1100px) {
+.messages hr {
+  margin: 0;
+  width: 100%;
+}
+
+.messages h5 {
+  text-align: left;
+}
+
+@media (min-width: 940px) {
   body {
     padding: 0 15%;
   }
@@ -216,11 +230,13 @@ body {
   }
 
   .offerCards .oldPrice {
-    font-size: 1.3em;
+    font-size: 1.1em;
+    margin-bottom: -.3em;
   }
 
   .offerCards .newPrice {
-    font-size: 1.6em;
+    font-size: 1.5em;
+    margin-bottom: -.1em;
   }
 
   .offerCards button {
