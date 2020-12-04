@@ -21,6 +21,8 @@
 - For now, thats all!
 
  ### Site online
- [Eletro Dev Store PHP](http://eletrodevstore.42web.io/)
+ [Eletro Dev Store PHP](https://eletrodevstore.42web.io/)
 
- Como o site não tem protocolo de segurança ele da um aviso sobre riscos de acessar o mesmo, estou trabalhando para resolver isso.
+~~Como o site não tem protocolo de segurança ele da um aviso sobre riscos de acessar o mesmo, estou trabalhando para resolver isso.~~
+
+Agora com certificado SSL!
