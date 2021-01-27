@@ -21,10 +21,10 @@
 
 - Consistia em demonstrar na prática o conhecimento teórico
  - Criar uma máquina virtual com Ubuntu Server
- - Nao era obrigatório o acesso remoto via SSH, mas eu fiz
+ - Não era obrigatório o acesso remoto via SSH, mas eu fiz
  - Instalação e configuração do Apache, MySQL, PHP e PHPMyAdmin
  - Utilização do serviço NoIP
- - Permição e criação de usuário para acesso Remoto no MySQL
+ - Permissão e criação de usuário para acesso Remoto no MySQL
  - Criação de uma VIEW para utilização na tabela que foi usada
 
 
