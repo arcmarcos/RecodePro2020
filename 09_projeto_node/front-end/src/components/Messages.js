@@ -7,7 +7,7 @@ const Messages = () => {
   React.useEffect(() => {
     async function catchMessages() {
       const response = await fetch(
-        "http://localhost/PHP_to_React/messages.php"
+        "http://localhost:3333/messages"
       );
       const result = await response.json();
       setMessages(result);

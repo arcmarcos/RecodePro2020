@@ -50,12 +50,12 @@ SELECT * FROM produtos;
 /* Inserir mensagens */
 INSERT INTO usuarios 
 VALUES (
-	NULL, '$nome', '$email'
+	NULL, '${nome}', '${email}'
 );
 
 INSERT INTO mensagens (id_usuario, msg) 
 VALUES (
-	LAST_INSERT_ID(), '$msg'
+	LAST_INSERT_ID(), '${msg}'
 );
 
 /* Buscar Mensagens */

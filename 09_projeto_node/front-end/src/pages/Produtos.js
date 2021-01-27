@@ -7,7 +7,7 @@ const Produtos = (props) => {
 
   React.useEffect(() => {
     async function catchProducts() {
-      const response = await fetch("http://localhost:3001/");
+      const response = await fetch("http://localhost:3333/products");
       const result = await response.json();
       setProducts(result);
       console.log(result)
