@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> <%= data.art.name %> | <%= data.mus[0].name %></title>
+</head>
+<body>
+  <h1>API de letras</h1>
+  <a href="/">Buscar outra</a>
+
+  <img src="<%= data.art.pic_medium %>" alt="foto">
+  <h2><%= data.art.name %></h2>
+  <p><%= data.mus[0].name %></p>
+  <pre><%= data.mus[0].text %></pre>
+  
+</body>
+</html>
+
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background: #333333;
+    color: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-family: 'Ubuntu';
+  }
+
+  a {
+    color: springgreen;
+    font-size: 1.2rem;
+    text-decoration: none;
+    border: 2px solid springgreen;
+    border-radius: 5px;
+    padding: .3rem;
+    width: 120px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  a:hover {
+    background: springgreen;
+    color: #333333;
+  }
+</style>
