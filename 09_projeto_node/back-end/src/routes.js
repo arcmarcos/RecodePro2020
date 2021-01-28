@@ -7,6 +7,6 @@ const MessagesController = require("./controllers/MessagesController");
 routes.get("/products", ProductsController.productAction);
 
 routes.get("/messages", MessagesController.messageAction);
-routes.get("/messages", MessagesController.registerMessageAction);
+routes.post("/messages", MessagesController.registerMessageAction);
 
 module.exports = routes;
