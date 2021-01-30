@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Python com Flask</title>
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+
+</head>
+<body class="container d-flex justify-content-sm-center flex-column align-items-center">
+  
+  <h1 class="display-3 mt-3">Índice de Massa Corporal</h1>
+  
+  <form method="POST" action="/">
+    <div class="mb-1">
+      <label for="weight" class="form-label">Peso:
+        <input type="number" class="form-control" name="weight"  placeholder="Digite seu peso ex: 70" required min="0">
+      </label>
+    </div>
+
+    <div class="mb-4">
+      <label for="height" class="form-label">Altura:
+        <input type="number" class="form-control" name="height"  placeholder="Digite sua altura ex: 180" required min="0">
+      </label>
+      
+    </div>
+    <div class="d-flex justify-content-between">
+      <input type="submit" class="btn btn-success me-3" value="Calcular">
+      <input type="reset" class="btn btn-warning" value="Limpar">
+    </div>
+
+  </form>
+
+  <div>
+    {% if imc %}
+    <p class="fs-3 mt-5">Seu IMC é: {{imc}}</p>
+    {% endif %}
+  </div>
+
+
+</body>
+</html>
