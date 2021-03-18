@@ -1,11 +1,14 @@
-# Recode Pro 2020
-### Esse é o repositório para subir o que for ensinado no curso full stack da Recode.
+# Recode Pro 2020 / 2021
+
+
+
+### Repositório utilizado durante o curso full-stack da Recode
 <br>
 
-> #### Os projetos individuais podem ser acessados online [AQUI](https://marcos-recodepro.netlify.app/)
+> #### Alguns dos projetos individuais podem ser acessados online [AQUI](https://marcos-recodepro.netlify.app/)
 <br>
 
-> #### Há também o projeto em grupo que pode ser visto [AQUI](https://github.com/projeto-conatus/conatus)
+> #### Há também o projeto em grupo que pode ser visto [AQUI](https://github.com/projeto-conatus/)
 
 <br>
 
@@ -18,15 +21,15 @@ Você pode saber mais sobre acessando [RecodePro](https://www.recodepro.org.br/)
 
 <br>
 
-**O que vou aprender durante esse curso?**
+**O que eu aprendi durante o curso?**
 - Desenvolver as Soft-skills
+
 - Lógica de programação
   - Algoritmos
   - Orientação a objetos
 
 - Desenvolvimento web (Front e BackEnd)
-  - HTML
-  - CSS
+  - HTML & CSS
   - JavaScript (Vanilla, React, Node)
   - PHP
   - Python
@@ -34,16 +37,9 @@ Você pode saber mais sobre acessando [RecodePro](https://www.recodepro.org.br/)
   - Versionamento Git
   - Entre outros!
 
+- Infraestrutura em T.I
+  - Computador servidor
+  - Máquinas virtuais
+  - Linux e Command Line
+  - Serviços em nuvem
 <br>
-
-**O que estou aprendendo agora?**
-- Lógica de programação
-- HTML
-- CSS
-- Javascript (Vanilla)
-- Versionamento Git
-- Banco de dados com o MySQL
-- PHP básico
-- Bootstrap
-- ReactJs
-- Infraestrutura em TI

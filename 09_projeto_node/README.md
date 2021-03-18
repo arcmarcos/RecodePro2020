@@ -10,5 +10,3 @@
 ---
 
 ### Projeto entregue | 27/01/21
-
-### Em breve o projeto estará hospedado online com as devidas correções!

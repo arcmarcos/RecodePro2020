@@ -16,5 +16,3 @@
 - Tabelas SQL refatoradas e o uso do JOIN em mensagens
 - Bootstrap no retorno das mensagens do banco
 - Faltou o filtro de categorias, o modal e o carrinho.
-
-### Em breve o projeto estará hospedado online com as devidas correções!
